@@ -1,0 +1,20 @@
+@charset "UTF-8"; 
+
+main{
+    max-width: 800px;
+    
+}
+
+main,footer,section,article,header{
+    border:2px solid red;
+}
+
+form div{
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+label{
+    text-align: right;
+    padding-right: 5px;
+}
